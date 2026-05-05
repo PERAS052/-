@@ -1,0 +1,17 @@
+Alembic Migrations
+==================
+
+Генерация миграции:
+    alembic revision --autogenerate -m "описание изменений"
+
+Применение миграций:
+    alembic upgrade head
+
+Откат на одну миграцию:
+    alembic downgrade -1
+
+История миграций:
+    alembic history
+
+Текущая версия:
+    alembic current
